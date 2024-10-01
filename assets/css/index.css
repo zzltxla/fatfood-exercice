@@ -44,13 +44,11 @@ body {
 }
 
 .title {
-    font-family: "Poppins", sans-serif;
     color: var(--brown);
     font-weight: 800;
     line-height: 120%;
     margin: 0 0 2rem 0;
 }
-
 .large-p {
     font-size: 20px;
     line-height: 150%;
@@ -94,8 +92,8 @@ header {
 .logo {
     width: 100%;
     height: 14vh;
+
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -125,7 +123,7 @@ nav {
         width: 70%;
 
         .header-nav--item {
-            padding: 12px 8px;
+            padding: 0.75rem 0.5rem;
             height: 100%;
 
             transition: ease-out 200ms;
@@ -227,7 +225,7 @@ main {
         width: 35%;
         height: fit-content;
 
-        padding: 24px;
+        padding: 2rem;
 
         border: var(--orange) solid 2px;
 
@@ -235,14 +233,14 @@ main {
         flex-direction: column;
         align-items: start;
         justify-content: space-between;
-        row-gap: 24px;
+        row-gap: 2rem;
 
         ul {
             width: 100%;
             margin: 0 0 0 24px;
             display: flex;
             flex-direction: column; 
-            row-gap: 8px;
+            row-gap: 0.4rem;
         }
         h3 {
             border: 10px solid;
@@ -252,13 +250,13 @@ main {
             border-bottom: 0;
             border-right: 0;
 
-            padding: 8px 0 0 0;
+            padding: 0.4rem 0 0 0;
         }
     }
     .recipe-content {
         display: flex;
         flex-direction: column;
-        row-gap: 80px;
+        row-gap: 5rem;
 
         width: 60%;
         height: fit-content;
@@ -273,8 +271,8 @@ main {
                 justify-content: space-between;
                 align-items: start;
 
-                row-gap: 24px;
-                margin: 0 0 0 24px;
+                row-gap: 1.5rem;
+                margin: 0 0 0 1.5rem;
             }
         }
     }
@@ -289,7 +287,7 @@ footer {
     justify-content: center;
     align-items: center;
 
-    padding: 40px 120px;
+    padding: 2.5rem 7.5rem;
 
     .container {
 
@@ -305,7 +303,7 @@ footer {
             align-items: center;
             justify-content: space-between;
             width: fit-content;
-            column-gap: 12px;
+            column-gap: 0.75rem;
         }
     }
 }
